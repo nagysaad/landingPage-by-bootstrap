@@ -1,0 +1,911 @@
+
+
+
+/* ================================ 
+  1. General  
+================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+/* ================================ 
+  2. Navigation Design
+ ================================ */
+
+ul li  {
+  padding: 0 10px;
+  
+}
+
+
+
+ul a {
+  color: rgb(97, 97, 98) !important;
+  padding: 0 20px;
+}
+
+
+
+ul .active {
+  color: black !important;
+}
+
+nav button {
+  border: none;
+  border-radius: 3px;
+  background-color: black;
+  padding: 8px 28px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.nav-toggle {
+  color: #1f1f1f;
+}
+
+
+/* ================================ 
+  3. Hero Section Design 
+================================ */
+
+.hero-section {
+  margin-top: 100px;
+}
+
+.hero-section .hero-info h1 {
+  font-size: 84px;
+  font-weight: 00;
+  text-transform: capitalize;
+  width: 620px;
+}
+
+.hero-section .hero-info .hero-para {
+  margin-top: 30px;
+  color: rgb(102, 102, 103);
+}
+
+.hero-section .hero-info button {
+  margin-top: 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: black;
+  padding: 13px 30px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.hero-section .hero-info .the-number {
+  margin-top: 130px;
+}
+
+.hero-section .hero-info .the-number div {
+  margin: 0 20px;
+  color: rgb(102, 102, 103);
+}
+
+.hero-section .hero-info .the-number div h5 {
+  font-size: 55px;
+}
+
+.hero-section .hero-info .the-number div p {
+  font-size: 12px;
+  text-transform: capitalize;
+  line-height: 0;
+}
+
+.hero-section .hero-imges .fir-img {
+  margin-top: -16px;
+  margin-left: 140px;
+  width: 350px;
+}
+
+.hero-section .hero-imges div {
+  border: 1px solid black;
+  width: 130px;
+  height: 120px;
+  position: absolute;
+  margin-left: -20px;
+  z-index: -1;
+}
+
+.hero-section .hero-imges .sec-img {
+  width: 410px;
+  margin-top: 30px;
+}
+
+.hero-section .hero-imges button {
+  margin-top: 183px;
+  margin-left: -30px;
+  border: none;
+  background-color: black;
+  padding: 35px 40px;
+  text-transform: capitalize;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.hero-section .hero-imges button i {
+  font-size: 36px;
+}
+
+
+/* ================================
+  4. Service Category Section 
+ ================================ */
+
+.service-category-section {
+  margin-top: 150px;
+}
+
+.service-category-section .text .line {
+  width: 60px;
+  height: 2px;
+  background-color: black;
+  margin-top: 10px;
+}
+
+.service-category-section .text h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.service-category-section .big-service {
+  display: flex;
+}
+
+.service-category-section .big-service h5 {
+  font-weight: 600;
+}
+
+.service-category-section .big-service p {
+  color: rgb(102, 102, 103);
+}
+
+
+/* ================================ 
+  5. Designing Your Dream Section
+ ================================ */
+
+#Designing-your-dream {
+  margin-top: 100px;
+}
+
+#Designing-your-dream img {
+  width: 490px;
+}
+
+#Designing-your-dream h2 {
+  font-size: 40px;
+}
+
+#Designing-your-dream p {
+  color: rgb(102, 102, 103);
+  margin-top: 40px;
+  width: 500px;
+}
+
+#Designing-your-dream .card1 {
+  border: none;
+  margin-top: 40px;
+}
+
+#Designing-your-dream .card2 {
+  border: none;
+  margin-top: 17px;
+}
+
+#Designing-your-dream .card .card-header {
+  background-color: transparent;
+  color: black !important;
+}
+
+#Designing-your-dream .card .card-header a {
+  margin-left: -19px;
+  font-weight: 600;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Designing-your-dream .card .card-header a span {
+  font-weight: 100;
+  font-size: 30px;
+}
+
+#Designing-your-dream .card .card-body {
+  color: rgb(102, 102, 103);
+  font-size: 14px;
+  margin-left: -19px;
+}
+
+#Designing-your-dream button {
+  margin-top: 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: black;
+  padding: 16px 50px;
+  text-transform: capitalize;
+  color: white;
+}
+
+
+/* ================================
+  6. Three Simple Steps Section
+  ================================ */
+
+.three-simple-steps {
+  margin-top: 80px;
+}
+
+.three-simple-steps div h2 {
+  width: 95%;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.three-simple-steps .left-big div i {
+  background-color: black;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 13px;
+  font-size: 20px;
+}
+
+.three-simple-steps .left-big div .line2 {
+  background-color: rgba(102, 102, 103, 0.77);
+  width: 1px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.three-simple-steps .left-big div:nth-child(2) {
+  margin-left: 80px;
+}
+
+.three-simple-steps .left-big .one,
+.three-simple-steps .left-big .two {
+  margin-top: -130px;
+}
+
+.three-simple-steps .left-big .three {
+  margin-top: -35px;
+}
+
+.three-simple-steps .left-big div h5 {
+  font-weight: 600;
+}
+
+.three-simple-steps .left-big div p {
+  color: rgb(102, 102, 103);
+  width: 85%;
+}
+
+
+/* ================================
+  7. Customers Section
+  ================================ */
+
+.customers {
+  margin-top: 80px;
+}
+
+.customers button {
+  background-color: #f1f1f1;
+  color: rgb(102, 102, 103);
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.customers button:last-child {
+  margin-left: 10px;
+}
+
+.customers h3 {
+  width: 94%;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.customers .right-big .theBack {
+  background-color: #1f1f1f;
+  margin-top: 50px;
+  margin-left: -375px;
+}
+
+.customers .right-big .two {
+  margin-left: 30px;
+}
+
+.customers .right-big .theBack h1 {
+  color: white;
+  font-size: 120px;
+  padding: 27px;
+  padding-bottom: 0;
+}
+
+.customers .right-big .theBack .text-white {
+  padding: 27px;
+  margin-top: -80px;
+}
+
+.customers .right-big .theBack .down {
+  padding-left: 35px;
+  padding-bottom: 60px;
+}
+
+.customers .right-big .theBack .down img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.customers .right-big .theBack .down h5 {
+  color: white;
+  margin-left: 16px;
+  font-size: 17px;
+}
+
+.customers .right-big .theBack .down p {
+  color: rgb(102, 102, 103);
+  margin-left: 16px;
+  font-size: 14px;
+}
+
+
+/* ================================
+  8. Subscribe Section
+  ================================ */
+
+.subscribe {
+  margin-top: 150px;
+}
+
+.subscribe h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  width: 55%;
+  margin: auto;
+}
+
+.subscribe p {
+  text-align: center;
+  color: rgb(102, 102, 103);
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.subscribe div {
+  margin-top: 70px;
+  position: relative;
+}
+
+.subscribe div input {
+  width: 64%;
+  padding: 25px 65px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(102, 102, 103);
+}
+
+.subscribe div i {
+  position: absolute;
+  left: 230px;
+  margin-top: 28px;
+  color: rgb(102, 102, 103);
+  font-size: 18px;
+}
+
+.subscribe div button {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 3px;
+  position: absolute;
+  right: 200px;
+  margin-top: 5px;
+}
+
+
+/* ================================ 
+  9. Footer Section
+ ================================ */
+
+footer {
+  background-color: #1f1f1f;
+  margin-left: -15px;
+  height: 70vh;
+  margin-top: -110px;
+}
+
+footer div {
+  margin-top: 80px;
+}
+
+footer div img {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 70px;
+  width: 140px;
+}
+
+footer div p {
+  margin-left: 70px;
+  color: rgb(102, 102, 103);
+  margin-top: 40px;
+  width: 100%;
+}
+
+footer h6 {
+  margin-left: 7px;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+footer ul li {
+  margin: 20px 0;
+  color: rgb(102, 102, 103);
+  font-size: 14px;
+}
+
+footer ul .des {
+  width: 60%;
+}
+
+footer .two,
+footer .three {
+  margin-left: 80px;
+}
+
+
+/* ================================
+  10. Media Queries 
+ ================================ */
+
+@media (max-width: 1200px) {
+  #Designing-your-dream img {
+    width: 100%;
+  }
+
+  .three-simple-steps h2 {
+    font-size: 30px !important;
+  }
+
+  .three-simple-steps img {
+    width: 100%;
+  }
+
+  .customers h3 {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .customers .theBack {
+    height: 400px;
+    margin-left: -310px !important;
+    margin-top: 80px !important;
+  }
+
+  .customers .two {
+    margin-left: 10px !important;
+  }
+
+  .subscribe h2 {
+    font-size: 30px !important;
+  }
+
+  .subscribe button {
+    right: 170px !important;
+  }
+
+  .subscribe i {
+    left: 200px !important;
+  }
+}
+
+@media (max-width: 1150px) {
+  .hero-section h1 {
+    width: 100% !important;
+    font-size: 60px !important;
+  }
+
+  .hero-section .hero-imges .fir-img {
+    margin-left: 100px !important;
+    width: 80% !important;
+  }
+
+  footer .one {
+    margin-left: 50px !important;
+  }
+
+  footer .two,
+  footer .three {
+    margin-left: 20px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .the-number {
+    width: 170% !important;
+  }
+
+  .hero-imges div {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .hero-imges .sec-img {
+    width: 110% !important;
+  }
+
+  .hero-imges button {
+    top: 210px;
+    right: -20px;
+    padding: 20px 30px !important;
+  }
+
+  .service-category-section .service-category p {
+    width: 100% !important;
+  }
+
+  #Designing-your-dream h2 {
+    font-size: 27px;
+  }
+
+  #Designing-your-dream p {
+    width: 100% !important;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  #Designing-your-dream .card1 {
+    margin-top: -20px !important;
+  }
+
+  #Designing-your-dream .card2 {
+    margin-top: 0px !important;
+  }
+
+  #Designing-your-dream a {
+    font-size: 13px !important;
+  }
+
+  #Designing-your-dream .card-body {
+    font-size: 11px !important;
+  }
+
+  #Designing-your-dream button {
+    font-size: 13px !important;
+    padding: 10px 20px !important;
+    margin-top: 11px;
+  }
+
+  .three-simple-steps h2 {
+    font-size: 25px !important;
+  }
+
+  .three-simple-steps .one p,
+  .three-simple-steps .two p,
+  .three-simple-steps .three p {
+    width: 100% !important;
+    font-size: 13px;
+  }
+
+  .customers button {
+    font-size: 13px !important;
+    padding: 10px 15px !important;
+  }
+
+  .customers .right-big h1 {
+    font-size: 75px !important;
+  }
+
+  .customers .right-big .theBack {
+    height: 270px !important;
+    margin-top: 20px !important;
+  }
+
+  .customers .right-big .theBack:first-child {
+    margin-left: -240px !important;
+  }
+
+  .customers .right-big .theBack .text-white {
+    padding: 20px 27px;
+    font-size: 11px;
+  }
+
+  .subscribe h2 {
+    width: 100% !important;
+    font-size: 25px !important;
+  }
+
+  .subscribe p {
+    width: 100% !important;
+  }
+
+  .subscribe input {
+    width: 100% !important;
+  }
+
+  .subscribe button {
+    right: 10px !important;
+  }
+
+  .subscribe i {
+    left: 40px !important;
+  }
+
+  footer div img {
+    margin-left: 20px;
+    width: 100px;
+  }
+
+  footer div p {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  footer h6 {
+    font-size: 14px !important;
+  }
+
+  footer ul li {
+    font-size: 13px;
+  }
+
+  footer .two,
+  footer .three {
+    margin-left: 0px !important;
+  }
+}
+
+@media (max-width: 840px) {
+  .three-simple-steps img {
+    width: 90% !important;
+  }
+
+  footer .theDown {
+    margin-top: -60px;
+  }
+
+  footer .theDown .two {
+    margin-left: 50px !important;
+  }
+
+  footer .theDown .three {
+    margin-left: 50px !important;
+  }
+}
+
+@media (max-width: 765px) {
+  
+  .hero-imges .fir-img {
+    margin-top: 29px !important;
+  }
+
+  .hero-imges button {
+    top: 479px;
+    right: -35px;
+    padding: 30px 35px !important;
+  }
+
+  .customers {
+    margin-top: 140px !important;
+  }
+
+  .customers h3 {
+    margin-top: -580px;
+  }
+
+  .customers .right-big .theBack:first-child {
+    width: 100% !important;
+    height: 200px !important;
+    margin-top: 155px !important;
+    margin-left: 175px !important;
+  }
+
+  .customers .right-big .theBack .down {
+    margin-top: -20px !important;
+  }
+
+  .customers .right-big .theBack .down img {
+    width: 40px !important;
+  }
+
+  .customers .right-big .theBack .down h5 {
+    font-size: 14px !important;
+  }
+
+  .customers .right-big .two {
+    width: 100% !important;
+    height: 200px !important;
+    margin-left: 175px !important;
+    margin-top: 10px !important;
+  }
+
+  footer .theDown .two {
+    margin-left: 0px !important;
+  }
+
+  footer .theDown .three {
+    margin-left: 0px !important;
+  }
+}
+
+@media (max-width: 645px) {
+  .hero-imges .sec-img {
+    width: 100% !important;
+  }
+
+  .hero-imges button {
+    top: 467px !important;
+    right: 15px;
+    padding: 20px 25px !important;
+  }
+
+  footer img,
+  footer p {
+    margin-left: 0px !important;
+  }
+
+  footer .one {
+    margin-left: 25px !important;
+  }
+
+  footer .two {
+    padding-left: 70px !important;
+  }
+
+  footer .three {
+    padding-left: 25px !important;
+    margin-top: 10px !important;
+  }
+
+  footer {
+    height: 100% !important;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero-section .the-number {
+    width: 100% !important;
+  }
+
+  .hero-section .sec-img {
+    width: 90% !important;
+  }
+
+  .hero-imges button {
+    display: none;
+  }
+
+  .subscribe input {
+    padding: 20px 30px !important;
+  }
+
+  .subscribe button {
+    padding: 15px 25px !important;
+    right: 5px !important;
+  }
+
+  .subscribe i {
+    left: 9px !important;
+    font-size: 15px !important;
+    top: -3px !important;
+  }
+
+  .customers .img1 {
+    width: 400px !important;
+    height: 530px !important;
+  }
+
+  .customers .right-big .theBack:first-child {
+    margin-left: 150px !important;
+    width: 300px !important;
+    margin-top: 165px !important;
+    height: 230px !important;
+  }
+
+  .customers .right-big .two {
+    margin-left: 150px !important;
+    width: 300px !important;
+    height: 230px !important;
+  }
+
+  .customers h3 {
+    margin-top: -640px;
+    font-size: 22px !important;
+  }
+}
+
+@media (max-width: 487px) {
+  .customers h3 {
+    font-size: 18px !important;
+  }
+
+  .customers .text-white {
+    font-size: 10px !important;
+  }
+
+  .subscribe button {
+    padding: 18px 7px !important;
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 444px) {
+  .customers .img1 {
+    width: 310px !important;
+  }
+
+  .customers .right-big .theBack:first-child {
+    margin-left: 120px !important;
+    width: 250px !important;
+  }
+
+  .customers .right-big .two {
+    margin-left: 120px !important;
+    width: 250px !important;
+  }
+
+  .subscribe input {
+    font-size: 12px !important;
+  }
+
+  .subscribe button {
+    padding: 15px 7px !important;
+    font-size: 12px !important;
+  }
+
+  .subscribe i {
+    top: -7px !important;
+  }
+}
+
+@media (max-width: 392px) {
+  .customers h3 {
+    font-size: 16px !important;
+  }
+
+  .customers .img1 {
+    width: 270px !important;
+  }
+
+  .customers .right-big .theBack:first-child {
+    margin-left: 110px !important;
+    width: 250px !important;
+  }
+
+  .customers .right-big .two {
+    margin-left: 110px !important;
+    width: 250px !important;
+  }
+}
